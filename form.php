@@ -19,6 +19,7 @@ if ($_POST['name'] || $_POST['age']) {
     <body>
         <?php
         // put your code here
+        require ("form1.php");
         ?>
         <form action="<?php $_PHP_SELF ?>" method="post">
             Name: <input type="text" name="name" />
