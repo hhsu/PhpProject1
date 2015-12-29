@@ -47,11 +47,11 @@ and open the template in the editor.
         printMe();
 
         //function 4 assign function names as strings to variable
-        function sayHello() {
+        function sayHello123() {
             echo "Hello<br />";
         }
 
-        $function_holder = "sayHello";
+        $function_holder = "sayHello123";
         $function_holder();
         ?>
     </body>
